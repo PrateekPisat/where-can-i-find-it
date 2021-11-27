@@ -1,0 +1,4 @@
+flask:
+  env: <% ENV[FLASK_ENV, dev] %>
+  app: where_can_i_find_it
+  secret: <% ENV[FLASK_SECRET_KEY, null] %>
